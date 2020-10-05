@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!-- <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="w6event.FXMLehhController">
+    
+</AnchorPane>
+-->
+
+<FlowPane prefHeight="350.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="w6event.FXMLehhController">
+    <children>
+        <Label text="Enter first number:"/>
+        <TextField fx:id="txt1"/>
+        <Label text="Enter second number:"/>
+        <TextField fx:id="txt2"/>
+        <Label text="Result:"/>
+        <TextField fx:id="txt3"/>
+        <TextArea fx:id="ta" prefColumnCount="15" prefRowCount="15"/>
+        <Button text="Addition" fx:id="btnadd" onAction="#addition"/>
+        <Button text="Multiplication" fx:id="btnmult" onAction="#multiplication"/>
+        <Button text="Clear" fx:id="btnclear" onAction="#clear"/>
+        <Button text="Exit" fx:id="btnexit" onAction="#exit"/>
+        
+        
+    </children>
+</FlowPane>
